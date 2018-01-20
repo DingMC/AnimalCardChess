@@ -7,14 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E1B95552013231500269395 /* MCLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1B95532013231500269395 /* MCLoading.swift */; };
+		9E1B95562013231500269395 /* MCLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1B95542013231500269395 /* MCLoadingView.swift */; };
+		9E1DF8A4200AF74D00E0FD0E /* ImageCacheExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DF8A3200AF74D00E0FD0E /* ImageCacheExtension.swift */; };
+		9E35F7D01FF79248003CA7FB /* AIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35F7CF1FF79248003CA7FB /* AIManager.swift */; };
+		9E35F7D21FF79823003CA7FB /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35F7D11FF79823003CA7FB /* Move.swift */; };
+		9E35F7D41FF8D823003CA7FB /* NetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35F7D31FF8D823003CA7FB /* NetworkUtil.swift */; };
+		9E35F7D91FF948CE003CA7FB /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35F7D81FF948CE003CA7FB /* UserManager.swift */; };
+		9E35F7DB1FF948DD003CA7FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35F7DA1FF948DD003CA7FB /* User.swift */; };
+		9E35F7DD1FF948F1003CA7FB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35F7DC1FF948F1003CA7FB /* LoginViewController.swift */; };
+		9E35F7DF1FF9F39A003CA7FB /* Extension+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35F7DE1FF9F39A003CA7FB /* Extension+Dictionary.swift */; };
+		9E35F7E11FF9F8ED003CA7FB /* APIDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35F7E01FF9F8ED003CA7FB /* APIDefine.swift */; };
+		9E35F7E31FFA597D003CA7FB /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35F7E21FFA597D003CA7FB /* MessageManager.swift */; };
 		9E98010B1FE3D6B0008FED6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98010A1FE3D6B0008FED6B /* AppDelegate.swift */; };
 		9E98010D1FE3D6B0008FED6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98010C1FE3D6B0008FED6B /* ViewController.swift */; };
 		9E9801101FE3D6B0008FED6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E98010E1FE3D6B0008FED6B /* Main.storyboard */; };
 		9E9801121FE3D6B0008FED6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9801111FE3D6B0008FED6B /* Assets.xcassets */; };
 		9E9801151FE3D6B0008FED6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9801131FE3D6B0008FED6B /* LaunchScreen.storyboard */; };
+		9E9801441FE53ED3008FED6B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9801431FE53ED3008FED6B /* BaseViewController.swift */; };
+		9E9801461FE53FEF008FED6B /* Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9801451FE53FEF008FED6B /* Chess.swift */; };
+		9E98014C1FE5453F008FED6B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98014B1FE5453F008FED6B /* Player.swift */; };
+		9E98014E1FE54568008FED6B /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98014D1FE54568008FED6B /* Step.swift */; };
+		9E9801501FE54586008FED6B /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98014F1FE54586008FED6B /* Composition.swift */; };
+		9E9801521FE556DF008FED6B /* CompositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9801511FE556DF008FED6B /* CompositionViewController.swift */; };
+		9EA03DA11FEA560E005DEE3D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA03DA01FEA560E005DEE3D /* Color.swift */; };
+		9EA03DA31FEA7045005DEE3D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA03DA21FEA7045005DEE3D /* Font.swift */; };
+		9EA03DA51FEAA6FD005DEE3D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA03DA41FEAA6FD005DEE3D /* PlayerView.swift */; };
+		9EA03DA71FEAB857005DEE3D /* SetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA03DA61FEAB857005DEE3D /* SetView.swift */; };
+		9EA03DA91FEABB3D005DEE3D /* CompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA03DA81FEABB3D005DEE3D /* CompositionView.swift */; };
+		9EA03DAC1FEABC0B005DEE3D /* ChessButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA03DAB1FEABC0B005DEE3D /* ChessButton.swift */; };
+		9EA03DAE1FEBCD10005DEE3D /* ChessBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA03DAD1FEBCD10005DEE3D /* ChessBoard.swift */; };
+		9EA03DB01FEBF106005DEE3D /* ChessBoardLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA03DAF1FEBF106005DEE3D /* ChessBoardLine.swift */; };
+		9EA03DB21FEC1597005DEE3D /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA03DB11FEC1597005DEE3D /* Define.swift */; };
+		9EA614091FECEDAA00E174DD /* CBPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA614081FECEDAA00E174DD /* CBPosition.swift */; };
+		9EA6140B1FED087000E174DD /* Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA6140A1FED087000E174DD /* Moveable.swift */; };
+		9EA6140D1FED175600E174DD /* CompositionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA6140C1FED175600E174DD /* CompositionManager.swift */; };
+		9EA614101FED22CD00E174DD /* CompositionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA6140F1FED22CD00E174DD /* CompositionUtil.swift */; };
+		9EA614121FEE373D00E174DD /* DirectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA614111FEE373D00E174DD /* DirectionViews.swift */; };
+		9EA614141FEE377800E174DD /* DirectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA614131FEE377800E174DD /* DirectionButton.swift */; };
+		9EDD7D6A1FE78F6F007033DC /* Chessboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD7D691FE78F6F007033DC /* Chessboard.swift */; };
+		9EDD7D6C1FE7C6E3007033DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD7D6B1FE7C6E3007033DC /* HomeViewController.swift */; };
+		9EDD7D6E1FE800AF007033DC /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD7D6D1FE800AF007033DC /* HomeTableViewCell.swift */; };
+		9EDD7D701FE80CAB007033DC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9EDD7D6F1FE80CAA007033DC /* Podfile */; };
+		9EDD7D721FE8A4C9007033DC /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD7D711FE8A4C9007033DC /* HomeItem.swift */; };
+		9EDD7D761FE9F71C007033DC /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD7D751FE9F71C007033DC /* Extension+UIColor.swift */; };
+		F412111D0466D6368055E361 /* Pods_AnimalCardChess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57B8B1451249FD78CCBAACD /* Pods_AnimalCardChess.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82DB880D7B07F9BDEA111491 /* Pods-AnimalCardChess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalCardChess.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimalCardChess/Pods-AnimalCardChess.release.xcconfig"; sourceTree = "<group>"; };
+		9E1B95532013231500269395 /* MCLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCLoading.swift; sourceTree = "<group>"; };
+		9E1B95542013231500269395 /* MCLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCLoadingView.swift; sourceTree = "<group>"; };
+		9E1DF8A3200AF74D00E0FD0E /* ImageCacheExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheExtension.swift; sourceTree = "<group>"; };
+		9E35F7CF1FF79248003CA7FB /* AIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIManager.swift; sourceTree = "<group>"; };
+		9E35F7D11FF79823003CA7FB /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		9E35F7D31FF8D823003CA7FB /* NetworkUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtil.swift; sourceTree = "<group>"; };
+		9E35F7D81FF948CE003CA7FB /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		9E35F7DA1FF948DD003CA7FB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9E35F7DC1FF948F1003CA7FB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9E35F7DE1FF9F39A003CA7FB /* Extension+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Dictionary.swift"; sourceTree = "<group>"; };
+		9E35F7E01FF9F8ED003CA7FB /* APIDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDefine.swift; sourceTree = "<group>"; };
+		9E35F7E21FFA597D003CA7FB /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
 		9E9801071FE3D6B0008FED6B /* AnimalCardChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalCardChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E98010A1FE3D6B0008FED6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E98010C1FE3D6B0008FED6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +75,35 @@
 		9E9801111FE3D6B0008FED6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E9801141FE3D6B0008FED6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E9801161FE3D6B0008FED6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E9801431FE53ED3008FED6B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9E9801451FE53FEF008FED6B /* Chess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess.swift; sourceTree = "<group>"; };
+		9E98014B1FE5453F008FED6B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9E98014D1FE54568008FED6B /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		9E98014F1FE54586008FED6B /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
+		9E9801511FE556DF008FED6B /* CompositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionViewController.swift; sourceTree = "<group>"; };
+		9EA03DA01FEA560E005DEE3D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9EA03DA21FEA7045005DEE3D /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		9EA03DA41FEAA6FD005DEE3D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		9EA03DA61FEAB857005DEE3D /* SetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetView.swift; sourceTree = "<group>"; };
+		9EA03DA81FEABB3D005DEE3D /* CompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionView.swift; sourceTree = "<group>"; };
+		9EA03DAB1FEABC0B005DEE3D /* ChessButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessButton.swift; sourceTree = "<group>"; };
+		9EA03DAD1FEBCD10005DEE3D /* ChessBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoard.swift; sourceTree = "<group>"; };
+		9EA03DAF1FEBF106005DEE3D /* ChessBoardLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardLine.swift; sourceTree = "<group>"; };
+		9EA03DB11FEC1597005DEE3D /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		9EA614081FECEDAA00E174DD /* CBPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBPosition.swift; sourceTree = "<group>"; };
+		9EA6140A1FED087000E174DD /* Moveable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moveable.swift; sourceTree = "<group>"; };
+		9EA6140C1FED175600E174DD /* CompositionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionManager.swift; sourceTree = "<group>"; };
+		9EA6140F1FED22CD00E174DD /* CompositionUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionUtil.swift; sourceTree = "<group>"; };
+		9EA614111FEE373D00E174DD /* DirectionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionViews.swift; sourceTree = "<group>"; };
+		9EA614131FEE377800E174DD /* DirectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionButton.swift; sourceTree = "<group>"; };
+		9EDD7D691FE78F6F007033DC /* Chessboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chessboard.swift; sourceTree = "<group>"; };
+		9EDD7D6B1FE7C6E3007033DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9EDD7D6D1FE800AF007033DC /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		9EDD7D6F1FE80CAA007033DC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDD7D711FE8A4C9007033DC /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
+		9EDD7D751FE9F71C007033DC /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		D57B8B1451249FD78CCBAACD /* Pods_AnimalCardChess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalCardChess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1049C377CF9030CE4DEBA8C /* Pods-AnimalCardChess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalCardChess.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimalCardChess/Pods-AnimalCardChess.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +111,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F412111D0466D6368055E361 /* Pods_AnimalCardChess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BDD3CCD51AFCC4F4AE2C346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D57B8B1451249FD78CCBAACD /* Pods_AnimalCardChess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E1B95522013231500269395 /* MCLoading */ = {
+			isa = PBXGroup;
+			children = (
+				9E1B95532013231500269395 /* MCLoading.swift */,
+				9E1B95542013231500269395 /* MCLoadingView.swift */,
+			);
+			path = MCLoading;
+			sourceTree = "<group>";
+		};
+		9E1DF89F200AF6E900E0FD0E /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				9E1DF8A3200AF74D00E0FD0E /* ImageCacheExtension.swift */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		9E35F7D51FF948A2003CA7FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E35F7DC1FF948F1003CA7FB /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E35F7D61FF948AB003CA7FB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9E35F7D81FF948CE003CA7FB /* UserManager.swift */,
+				9E35F7E21FFA597D003CA7FB /* MessageManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9E35F7D71FF948B4003CA7FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E35F7DA1FF948DD003CA7FB /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9E9800FE1FE3D6B0008FED6B = {
 			isa = PBXGroup;
 			children = (
+				9EDD7D6F1FE80CAA007033DC /* Podfile */,
 				9E9801091FE3D6B0008FED6B /* AnimalCardChess */,
 				9E9801081FE3D6B0008FED6B /* Products */,
+				D24B23EE21992B51A49B70FD /* Pods */,
+				7BDD3CCD51AFCC4F4AE2C346 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +190,11 @@
 		9E9801091FE3D6B0008FED6B /* AnimalCardChess */ = {
 			isa = PBXGroup;
 			children = (
+				9E98011F1FE406DD008FED6B /* Vender */,
+				9E98013C1FE50089008FED6B /* Common */,
+				9E98011E1FE406D3008FED6B /* General */,
+				9E98013F1FE50512008FED6B /* Base */,
+				9E98011D1FE406CC008FED6B /* Section */,
 				9E98010A1FE3D6B0008FED6B /* AppDelegate.swift */,
 				9E98010C1FE3D6B0008FED6B /* ViewController.swift */,
 				9E98010E1FE3D6B0008FED6B /* Main.storyboard */,
@@ -64,6 +205,206 @@
 			path = AnimalCardChess;
 			sourceTree = "<group>";
 		};
+		9E98011D1FE406CC008FED6B /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				9E9801331FE4E901008FED6B /* Composition */,
+				9E9801351FE4E924008FED6B /* Home */,
+				9E9801341FE4E917008FED6B /* User */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		9E98011E1FE406D3008FED6B /* General */ = {
+			isa = PBXGroup;
+			children = (
+				9EA03D9F1FEA5598005DEE3D /* Marco */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		9E98011F1FE406DD008FED6B /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				9E1DF89F200AF6E900E0FD0E /* SDWebImage */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		9E9801201FE4CA21008FED6B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9EDD7D751FE9F71C007033DC /* Extension+UIColor.swift */,
+				9E35F7DE1FF9F39A003CA7FB /* Extension+Dictionary.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9E9801331FE4E901008FED6B /* Composition */ = {
+			isa = PBXGroup;
+			children = (
+				9E9801391FE4E95B008FED6B /* Model */,
+				9E98013B1FE4E967008FED6B /* View */,
+				9E98013A1FE4E961008FED6B /* Controller */,
+				9EA6140E1FED175C00E174DD /* Manager */,
+			);
+			path = Composition;
+			sourceTree = "<group>";
+		};
+		9E9801341FE4E917008FED6B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				9E35F7D71FF948B4003CA7FB /* Model */,
+				9E35F7D61FF948AB003CA7FB /* Manager */,
+				9E35F7D51FF948A2003CA7FB /* Controller */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		9E9801351FE4E924008FED6B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9E9801361FE4E93E008FED6B /* Model */,
+				9E9801371FE4E945008FED6B /* View */,
+				9E9801381FE4E94C008FED6B /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9E9801361FE4E93E008FED6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EDD7D711FE8A4C9007033DC /* HomeItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E9801371FE4E945008FED6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EDD7D6D1FE800AF007033DC /* HomeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E9801381FE4E94C008FED6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9EDD7D6B1FE7C6E3007033DC /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E9801391FE4E95B008FED6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E9801451FE53FEF008FED6B /* Chess.swift */,
+				9EDD7D691FE78F6F007033DC /* Chessboard.swift */,
+				9E98014B1FE5453F008FED6B /* Player.swift */,
+				9E98014F1FE54586008FED6B /* Composition.swift */,
+				9E98014D1FE54568008FED6B /* Step.swift */,
+				9EA614081FECEDAA00E174DD /* CBPosition.swift */,
+				9EA6140A1FED087000E174DD /* Moveable.swift */,
+				9E35F7D11FF79823003CA7FB /* Move.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E98013A1FE4E961008FED6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E9801511FE556DF008FED6B /* CompositionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E98013B1FE4E967008FED6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EA03DA81FEABB3D005DEE3D /* CompositionView.swift */,
+				9EA03DA41FEAA6FD005DEE3D /* PlayerView.swift */,
+				9EA03DA61FEAB857005DEE3D /* SetView.swift */,
+				9EA03DAB1FEABC0B005DEE3D /* ChessButton.swift */,
+				9EA03DAD1FEBCD10005DEE3D /* ChessBoard.swift */,
+				9EA03DAF1FEBF106005DEE3D /* ChessBoardLine.swift */,
+				9EA614111FEE373D00E174DD /* DirectionViews.swift */,
+				9EA614131FEE377800E174DD /* DirectionButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E98013C1FE50089008FED6B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9E98013E1FE5026A008FED6B /* Customer */,
+				9E98013D1FE50265008FED6B /* Util */,
+				9E9801201FE4CA21008FED6B /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9E98013D1FE50265008FED6B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9E35F7D31FF8D823003CA7FB /* NetworkUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9E98013E1FE5026A008FED6B /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				9E1B95522013231500269395 /* MCLoading */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		9E98013F1FE50512008FED6B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9E9801411FE53EBE008FED6B /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9E9801411FE53EBE008FED6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E9801431FE53ED3008FED6B /* BaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9EA03D9F1FEA5598005DEE3D /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				9EA03DA01FEA560E005DEE3D /* Color.swift */,
+				9EA03DA21FEA7045005DEE3D /* Font.swift */,
+				9EA03DB11FEC1597005DEE3D /* Define.swift */,
+				9E35F7E01FF9F8ED003CA7FB /* APIDefine.swift */,
+			);
+			path = Marco;
+			sourceTree = "<group>";
+		};
+		9EA6140E1FED175C00E174DD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9EA6140F1FED22CD00E174DD /* CompositionUtil.swift */,
+				9EA6140C1FED175600E174DD /* CompositionManager.swift */,
+				9E35F7CF1FF79248003CA7FB /* AIManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D24B23EE21992B51A49B70FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1049C377CF9030CE4DEBA8C /* Pods-AnimalCardChess.debug.xcconfig */,
+				82DB880D7B07F9BDEA111491 /* Pods-AnimalCardChess.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +412,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E9801191FE3D6B0008FED6B /* Build configuration list for PBXNativeTarget "AnimalCardChess" */;
 			buildPhases = (
+				FC391E00461FB0AEBFD5FACE /* [CP] Check Pods Manifest.lock */,
 				9E9801031FE3D6B0008FED6B /* Sources */,
 				9E9801041FE3D6B0008FED6B /* Frameworks */,
 				9E9801051FE3D6B0008FED6B /* Resources */,
+				6545A84E31964C55C53CBFC5 /* [CP] Embed Pods Frameworks */,
+				F1F48097AD24A03416D287B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +440,7 @@
 				TargetAttributes = {
 					9E9801061FE3D6B0008FED6B = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,19 +470,106 @@
 			files = (
 				9E9801151FE3D6B0008FED6B /* LaunchScreen.storyboard in Resources */,
 				9E9801121FE3D6B0008FED6B /* Assets.xcassets in Resources */,
+				9EDD7D701FE80CAB007033DC /* Podfile in Resources */,
 				9E9801101FE3D6B0008FED6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6545A84E31964C55C53CBFC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimalCardChess/Pods-AnimalCardChess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F48097AD24A03416D287B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimalCardChess/Pods-AnimalCardChess-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC391E00461FB0AEBFD5FACE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E9801031FE3D6B0008FED6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E98014C1FE5453F008FED6B /* Player.swift in Sources */,
+				9EA614141FEE377800E174DD /* DirectionButton.swift in Sources */,
+				9E35F7D21FF79823003CA7FB /* Move.swift in Sources */,
+				9E1B95552013231500269395 /* MCLoading.swift in Sources */,
+				9EDD7D721FE8A4C9007033DC /* HomeItem.swift in Sources */,
+				9E35F7D01FF79248003CA7FB /* AIManager.swift in Sources */,
+				9EA03DA31FEA7045005DEE3D /* Font.swift in Sources */,
+				9E35F7D91FF948CE003CA7FB /* UserManager.swift in Sources */,
+				9EA03DA71FEAB857005DEE3D /* SetView.swift in Sources */,
+				9EA03DB21FEC1597005DEE3D /* Define.swift in Sources */,
+				9EA03DA51FEAA6FD005DEE3D /* PlayerView.swift in Sources */,
+				9E35F7DF1FF9F39A003CA7FB /* Extension+Dictionary.swift in Sources */,
+				9EA614121FEE373D00E174DD /* DirectionViews.swift in Sources */,
+				9EA03DB01FEBF106005DEE3D /* ChessBoardLine.swift in Sources */,
+				9E98014E1FE54568008FED6B /* Step.swift in Sources */,
+				9EA614101FED22CD00E174DD /* CompositionUtil.swift in Sources */,
 				9E98010D1FE3D6B0008FED6B /* ViewController.swift in Sources */,
 				9E98010B1FE3D6B0008FED6B /* AppDelegate.swift in Sources */,
+				9E9801461FE53FEF008FED6B /* Chess.swift in Sources */,
+				9EA03DAE1FEBCD10005DEE3D /* ChessBoard.swift in Sources */,
+				9E35F7E11FF9F8ED003CA7FB /* APIDefine.swift in Sources */,
+				9EDD7D6E1FE800AF007033DC /* HomeTableViewCell.swift in Sources */,
+				9EA6140D1FED175600E174DD /* CompositionManager.swift in Sources */,
+				9E35F7D41FF8D823003CA7FB /* NetworkUtil.swift in Sources */,
+				9EDD7D6C1FE7C6E3007033DC /* HomeViewController.swift in Sources */,
+				9EA03DAC1FEABC0B005DEE3D /* ChessButton.swift in Sources */,
+				9E9801521FE556DF008FED6B /* CompositionViewController.swift in Sources */,
+				9EA03DA11FEA560E005DEE3D /* Color.swift in Sources */,
+				9EA03DA91FEABB3D005DEE3D /* CompositionView.swift in Sources */,
+				9EA614091FECEDAA00E174DD /* CBPosition.swift in Sources */,
+				9E9801501FE54586008FED6B /* Composition.swift in Sources */,
+				9EA6140B1FED087000E174DD /* Moveable.swift in Sources */,
+				9EDD7D6A1FE78F6F007033DC /* Chessboard.swift in Sources */,
+				9E35F7DD1FF948F1003CA7FB /* LoginViewController.swift in Sources */,
+				9E35F7E31FFA597D003CA7FB /* MessageManager.swift in Sources */,
+				9E1DF8A4200AF74D00E0FD0E /* ImageCacheExtension.swift in Sources */,
+				9EDD7D761FE9F71C007033DC /* Extension+UIColor.swift in Sources */,
+				9E9801441FE53ED3008FED6B /* BaseViewController.swift in Sources */,
+				9E35F7DB1FF948DD003CA7FB /* User.swift in Sources */,
+				9E1B95562013231500269395 /* MCLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +704,19 @@
 		};
 		9E98011A1FE3D6B0008FED6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1049C377CF9030CE4DEBA8C /* Pods-AnimalCardChess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z354N7G72W;
 				INFOPLIST_FILE = AnimalCardChess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimalCardChess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +724,18 @@
 		};
 		9E98011B1FE3D6B0008FED6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DB880D7B07F9BDEA111491 /* Pods-AnimalCardChess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z354N7G72W;
 				INFOPLIST_FILE = AnimalCardChess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimalCardChess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

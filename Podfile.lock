@@ -1,0 +1,20 @@
+PODS:
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - SnapKit (4.0.0)
+  - Starscream (3.0.3)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SnapKit (~> 4.0.0)
+  - Starscream
+
+SPEC CHECKSUMS:
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Starscream: dfb1b3f39506717ee52b67fb48de0c8269504cbc
+
+PODFILE CHECKSUM: ccbb94203351493b1a2e1a4d7d84278c74c50e47
+
+COCOAPODS: 1.2.1
